@@ -10,6 +10,6 @@ int main()
 
 	int c = a + b;
 	cout << c << endl;
-
+	int d = 0;
 	return 0;
 }
