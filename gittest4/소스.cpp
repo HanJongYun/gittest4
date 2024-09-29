@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	int a = 1;
+	int a = 300;
 	int b = 2;
 
 
@@ -14,9 +14,12 @@ int main()
 	cout << c << endl;
 	int d = 0;
 
+
+	int Branch2Test = 100;
+	cout << Branch2Test << endl;
+
 	shared_ptr<TestMonster> testmonster = make_shared<TestMonster>(a, b);
 	
-
 
 	return 0;
 }
